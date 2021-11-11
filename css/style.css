@@ -2,7 +2,7 @@
     background-color: black;
 }
 .logo {
-    width: 50px;
+    width: 100px;
 }
 .play-logo {
     width: 40px;
@@ -14,4 +14,23 @@
 
 .dropdown-menu[data-bs-popper] {
     left: revert;
+}
+
+.jumbo-bg {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.returnal-banner {
+    width: 20%;
+}
+
+.jumbo-height {
+    height: 600px ;
+
+}
+
+.fs-7 {
+    font-size: 18px;
 }
