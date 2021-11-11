@@ -1,6 +1,9 @@
 .h-top {
     background-color: black;
 }
+.h-index {
+    z-index: 999;
+}
 .logo {
     width: 100px;
 }
@@ -20,17 +23,62 @@
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .returnal-banner {
-    width: 20%;
+    width: 230px;
 }
 
-.jumbo-height {
+.jumbo-height-width {
     height: 600px ;
+    width: 90%;
+    margin:auto;
 
+}
+
+.w-subjambo {
+    width: 90%;
+    margin: auto;
 }
 
 .fs-7 {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.img-height {
+    height: 110px;
+}
+
+.btn-returnal {
+    background-color: red;
+}
+
+.mt-6 {
+    margin-top: 5em;
+}
+
+.mb-7 {
+    margin-bottom: 7em;
+}
+
+.text-color-1 {
+    color: royalblue;
+}
+
+.text-color-2 {
+    color: grey;
+}
+
+.w-console {
+    width: 90%;
+    margin:auto;
+}
+
+.console-bg {
+    background-image: url(../img/playstation-5-thumb.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
 }
