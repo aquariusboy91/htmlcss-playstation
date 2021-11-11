@@ -1,0 +1,17 @@
+.h-top {
+    background-color: black;
+}
+.logo {
+    width: 50px;
+}
+.play-logo {
+    width: 40px;
+}
+
+.nav-bar-color {
+    background-color: white;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: revert;
+}
