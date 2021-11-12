@@ -112,3 +112,17 @@
         width: 130px;
     }
 }
+
+.s-tm {
+    font-size: 10px;
+    vertical-align: 0.5em;
+}
+
+.s-r {
+    font-size: 10px;
+    vertical-align: 1.2em;
+}
+
+.fs-10 {
+    font-size: 12px;
+}
