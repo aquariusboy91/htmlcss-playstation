@@ -135,9 +135,6 @@
     }
 }
 
-
-
-
 .s-tm {
     font-size: 10px;
     vertical-align: 0.5em;
@@ -150,4 +147,17 @@
 
 .fs-10 {
     font-size: 12px;
+}
+
+.btn-plus {
+    background-color: lightgrey;
+    border-color: lightgrey;
+}
+
+.text-blu {
+    color: blue;
+}
+
+.img-h-promo {
+    height: 400px;
 }
