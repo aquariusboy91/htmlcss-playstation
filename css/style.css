@@ -32,10 +32,12 @@
     background-position: center;
 }
 
-
-
 .banner-bg-plus {
     background-color: rgb(123, 161, 123);
+}
+
+.banner-bg-now {
+    background-color: rgb(4, 5, 80);
 }
 
 .w-banner {
