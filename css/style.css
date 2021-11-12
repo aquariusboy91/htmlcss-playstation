@@ -32,15 +32,30 @@
     background-position: center;
 }
 
+
+
+.banner-bg-plus {
+    background-color: rgb(123, 161, 123);
+}
+
 .w-banner {
     width: 230px;
 }
+
+.w-banner-plus {
+    width: 100%;
+}
+
 
 .jumbo-height-width {
     height: 600px ;
     width: 100%;
     margin:auto;
+}
 
+.plus-height-h {
+    width: 100%;
+    margin: auto;
 }
 
 .w-90 {
@@ -112,6 +127,16 @@
         width: 130px;
     }
 }
+
+@media screen and (max-width: 1000px) {
+
+    .col-hidden {
+        display: none;
+    }
+}
+
+
+
 
 .s-tm {
     font-size: 10px;
