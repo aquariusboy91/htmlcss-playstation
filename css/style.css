@@ -62,6 +62,14 @@
     height: 110px;
 }
 
+.img-height-2 {
+    height: 200px;
+}
+
+.img-height-3 {
+    height: 130px;
+}
+
 .btn-returnal {
     background-color: red;
 }
@@ -93,4 +101,14 @@
 
 .btn-color-2 {
     background-color: blue;
+}
+
+.bg-black {
+    background-color: rgb(32, 29, 29);
+}
+
+@media screen and (max-width: 400px) {
+    .logo-t2 {
+        width: 130px;
+    }
 }
