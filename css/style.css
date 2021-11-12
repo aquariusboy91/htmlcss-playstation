@@ -5,9 +5,7 @@
 .overflow-hidden-x {
     overflow-x: hidden;
 }
-.h-index {
-    z-index: 999;
-}
+
 .logo {
     width: 100px;
 }
@@ -19,9 +17,6 @@
     background-color: white;
 }
 
-/* .dropdown-menu[data-bs-popper] {
-    left: revert;
-} */
 
 .jumbo-bg {
     background-image: url(../img/jumbo-bg.png);
@@ -30,21 +25,34 @@
     background-position: center;
 }
 
-.returnal-banner {
+.banner-bg {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.w-banner {
     width: 230px;
 }
 
 .jumbo-height-width {
     height: 600px ;
-    width: 90%;
+    width: 100%;
     margin:auto;
 
 }
 
-.w-subjambo {
+.w-90 {
     width: 90%;
-    margin: auto;
+    margin:auto;
 }
+
+.w-99 {
+    width: 99%;
+
+}
+
 
 .fs-7 {
     font-size: 20px;
@@ -79,14 +87,10 @@
     margin:auto;
 }
 
-.console-bg {
-    background-image: url(../img/playstation-5-thumb.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
-}
-
 .list-none {
     list-style-type: none;
+}
+
+.btn-color-2 {
+    background-color: blue;
 }
