@@ -161,5 +161,17 @@
 }
 
 .img-h-promo {
-    height: 400px;
+    height: 200px;
+}
+
+.img-social {
+    height: 150px;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
 }
