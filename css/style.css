@@ -1,6 +1,10 @@
 .h-top {
     background-color: black;
 }
+
+.overflow-hidden-x {
+    overflow-x: hidden;
+}
 .h-index {
     z-index: 999;
 }
@@ -15,9 +19,9 @@
     background-color: white;
 }
 
-.dropdown-menu[data-bs-popper] {
+/* .dropdown-menu[data-bs-popper] {
     left: revert;
-}
+} */
 
 .jumbo-bg {
     background-image: url(../img/jumbo-bg.png);
@@ -81,4 +85,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
+}
+
+.list-none {
+    list-style-type: none;
 }
