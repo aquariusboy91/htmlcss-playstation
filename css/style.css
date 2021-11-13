@@ -17,6 +17,33 @@
     background-color: white;
 }
 
+.sub-img-trans {
+    position: static;
+    transition: all 1s ease;
+    top: calc(0% + 8px);
+}
+
+/* .h-sub-img {
+    height: 9em;
+} */
+
+.sub-img-trans:hover {
+    position: absolute;
+    top: calc(0% - 3px);
+
+}
+
+.btn-returnal:hover {
+    background-color: rgb(177, 2, 2);
+    border: 4px solid rgb(119, 2, 2);
+}
+
+@media screen and (max-width: 988px) {
+    .sub-img-trans:hover {
+        position:static;
+
+    }
+}
 
 .jumbo-bg {
     background-image: url(../img/jumbo-bg.png);
@@ -87,6 +114,14 @@
     height: 130px;
 }
 
+.opacity {
+    opacity: 0.5;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
 .btn-returnal {
     background-color: red;
 }
@@ -118,6 +153,11 @@
 
 .btn-color-2 {
     background-color: blue;
+}
+
+.btn-color-2:hover {
+    background-color: darkslateblue;
+    border: 4px solid rgb(0, 0, 105);
 }
 
 .bg-black {
@@ -156,12 +196,17 @@
     border-color: lightgrey;
 }
 
+.btn-plus:hover {
+    background-color: rgb(211, 211, 211);
+    border: 4px solid rgb(129, 129, 129);
+}
+
 .text-blu {
     color: blue;
 }
 
 .img-h-promo {
-    height: 200px;
+    height: 230px;
 }
 
 .img-social {
