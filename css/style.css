@@ -2,10 +2,6 @@
     background-color: black;
 }
 
-.overflow-hidden-x {
-    overflow-x: hidden;
-}
-
 .logo {
     width: 100px;
 }
@@ -23,9 +19,6 @@
     top: calc(0% + 8px);
 }
 
-/* .h-sub-img {
-    height: 9em;
-} */
 
 .sub-img-trans:hover {
     position: absolute;
